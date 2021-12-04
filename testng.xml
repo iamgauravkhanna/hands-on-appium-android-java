@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AppiumTestSuite" verbose="2" allow-return-values="true">
+	<test name="NativeAppsTests">
+		<classes>
+			<class name="android.nativeApps.apiDemo.CheckBoxExample" />
+		</classes>
+	</test>
+</suite>
